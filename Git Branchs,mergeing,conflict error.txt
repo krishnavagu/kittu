@@ -1,0 +1,46 @@
+ touch t1 t2
+  
+  468  git checkout -b master1
+  
+  471  ll
+  472  git add Homework
+  473  git status
+  474  git commit -m "Homework folder committed"
+  475  git status
+  476  git push -u origin master1
+  477  git checkout -b master
+  478  git checkout master
+  479  git branchs
+  480  git branch
+  481  git branch QA
+  482  git checkout QA
+  483  ll
+  484  add t1 t2
+  485  git status
+  486  git add t1 t2
+  487  git status
+  488  git commit -m "t1 commited files"
+  489  git push origin QA
+  490  ll
+  491  vi f1
+  492  cat f1
+  493  git checkout master
+  494  vi f1
+  495  cat f1
+  496  git add f1
+  497  git commit -m "Updated f1 file"
+  498  git push origin master
+  499  git checkout QA
+  500  ll
+  501  git add f1
+  502  git status
+  503  git commit "Updated f1 file in QA"
+  504  git commit -m "Updated f1 file in QA"
+  505  git commit -m "Updated"
+  
+  507  git push origin QA
+  508  git merge master
+  509  git add f1
+  510  git commit -m "updated"
+ 
+  512  git push -u origin QA
